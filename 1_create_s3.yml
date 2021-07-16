@@ -1,0 +1,13 @@
+---
+# Define the resources
+Resources:
+  # Resource Name
+  MyS3Bucket:
+    # Resource Type
+    Type: AWS::S3::Bucket
+    # Resource Properties
+    Properties:
+      # Update with no interruption
+      AccessControl: PublicRead
+      # Replacement
+      BucketName: "chaos-theory-linus-123-sjdfj"
